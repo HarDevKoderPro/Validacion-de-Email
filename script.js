@@ -5,7 +5,7 @@ const inputEmail = document.querySelector('#inputEmail');
 const botonVerificarEmail = document.querySelector('#botonVerificarEmail');
 
 // Funcion para validar el email
-function validarEmail(email){
+const validarEmail = (email) => {
 
   // Expresion regular con la estructura basica de un email
   let regex = /^\w+@\w+\.\w+$/gi;
